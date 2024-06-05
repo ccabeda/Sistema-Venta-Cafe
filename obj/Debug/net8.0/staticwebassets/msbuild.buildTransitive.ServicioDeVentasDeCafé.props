@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ServicioDeVentasDeCafé.props" />
+</Project>
