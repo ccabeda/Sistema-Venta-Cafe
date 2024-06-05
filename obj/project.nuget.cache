@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fiCgvVvaYy7n2UZ/Lz5wC4ARvVRPrKzKWzDuF5CfTLkWUlgM5RV05cx7azbCFllJzeyyogCabsHwqRKWxiechw==",
+  "dgSpecHash": "VNcQ1EE3PdWSUeFwCMOVAuYzp/02lr5MxGjrZfUaBnu+PTEtspgpeDIVuKHVX3QkpF61k49F6KiogH13N9tsCw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\SistemaDeVentaDeCafé\\ServicioDeVentasDeCafé\\ServicioDeVentasDeCafé.csproj",
+  "projectFilePath": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCafé\\ServicioDeVentasDeCafé.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cabed\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\cabed\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

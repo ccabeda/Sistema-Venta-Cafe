@@ -4778,11 +4778,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\SistemaDeVentaDeCafé\\ServicioDeVentasDeCafé\\ServicioDeVentasDeCafé.csproj",
+      "projectUniqueName": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCafé\\ServicioDeVentasDeCafé.csproj",
       "projectName": "ServicioDeVentasDeCafé",
-      "projectPath": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\SistemaDeVentaDeCafé\\ServicioDeVentasDeCafé\\ServicioDeVentasDeCafé.csproj",
+      "projectPath": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCafé\\ServicioDeVentasDeCafé.csproj",
       "packagesPath": "C:\\Users\\cabed\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\SistemaDeVentaDeCafé\\ServicioDeVentasDeCafé\\obj\\",
+      "outputPath": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCafé\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cabed\\AppData\\Roaming\\NuGet\\NuGet.Config",
