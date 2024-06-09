@@ -21,9 +21,9 @@ namespace SistemaDeVentasCafe.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [Route("RegistrarCobroConCodigoQR")]
-        public async Task<ActionResult<APIResponse>> codigoQR([FromBody] QRCreateDto QR) 
+        public async Task<ActionResult<APIResponse>> codigoQR(int id) 
         {
-            var result = await _service.PagarConQR(QR);
+            var result = await _service.PagarConQR(id);
             return Utilidades.AyudaControlador(result);
         }
 

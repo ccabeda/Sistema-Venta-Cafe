@@ -55,11 +55,20 @@ namespace SistemaDeVentasCafe.Service
             }
         }
 
-        public async Task<APIResponse> PagarConQR([FromBody] QRCreateDto QR)
+        public async Task<APIResponse> PagarConQR(int id)
         {
             try
             {
-                var cod = _mapper.Map<Mediodepago>(QR);
+                var cliente = await _unitOfWork.repositoryCliente.ObtenerPorId(id);
+                if (cliente == null)
+                {
+                    _logger.LogError("No existe cliente con ese id.");
+                    return Utilidades.NotFoundResponse(_apiresponse);
+                }
+                Mediodepago cod = new();
+                cod.Nombre = cliente.Nombre;
+                cod.Apellido = cliente.Apellido;
+                cod.Telefono = cliente.Telefono;
                 cod.Descripcion = "Pago Realizado con Codigo QR.";
                 await _unitOfWork.repositoryMedioDePago.Crear(cod);
                 await _unitOfWork.Save();
