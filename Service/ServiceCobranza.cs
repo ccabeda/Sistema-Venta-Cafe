@@ -60,9 +60,6 @@ namespace SistemaDeVentasCafe.Service
             }
         }
 
-        //Hay que hacer que al momento de crear la cobranza agarre el precio a pagar de la factura que esta relacionada y lo ponga ahi
-        //Tambien hay que hacer que se ponga la fecha automaticamente del momento en la que se creo.
-        //Y al momento de crearse una cobranza y poner la ID del medio de pago, que agarre la descripcion de este y lo meta en la cobranza asi se sabe con que pago.
         public async Task<APIResponse> Crear([FromBody] CobranzaCreateDto cobranzaCreateDto)
         {
             try
@@ -101,12 +98,26 @@ namespace SistemaDeVentasCafe.Service
             try
             {
                 var cobranza = await _unitOfWork.repositoryCobranza.ObtenerPorId(cobranzaUpdateDto.IdCobranza);
+                var factura = await _unitOfWork.repositoryFactura.ObtenerPorId(cobranza.NumeroFactura);
+                var metodoDePago = await _unitOfWork.repositoryMedioDePago.ObtenerPorId(cobranza.MedioDePago);
                 if (cobranza == null)
                 {
                     _logger.LogError("No existe una cobranza con esa id.");
                     return Utilidades.NotFoundResponse(_apiresponse);
                 }
+                if (factura == null)
+                {
+                    _logger.LogError("No existe factura con ese número.");
+                    return Utilidades.NotFoundResponse(_apiresponse);
+                }
+                if (metodoDePago == null)
+                {
+                    _logger.LogError("No existe metodo de pago asociado con el id ingresado..");
+                    return Utilidades.NotFoundResponse(_apiresponse);
+                }
                 _mapper.Map(cobranzaUpdateDto, cobranza);
+                cobranza.Descripcion = metodoDePago.Descripcion;
+                cobranza.Importe = factura.PrecioTotal;
                 cobranza.FechaDeCobro = DateOnly.FromDateTime(DateTime.Now);
                 await _unitOfWork.repositoryCobranza.Actualizar(cobranza);
                 await _unitOfWork.Save();
