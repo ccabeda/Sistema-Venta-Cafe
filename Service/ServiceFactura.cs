@@ -55,7 +55,7 @@ namespace SistemaDeVentasCafe.Service
                     return Utilidades.NotFoundResponse(_apiresponse);
                 }
                 _logger.LogInformation("Factura traida con exito.");
-                return Utilidades.OKResponse(_mapper.Map<FacturaGetDto>(factura), _apiresponse);
+                return Utilidades.OKResponse(factura, _apiresponse);
             }
             catch (Exception ex)
             {
