@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DD431C08-DDE9-4F5E-9282-8D8F16AC46DD}|ServicioDeVentasDeCaf\u00E9.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\serviciodeventasdecaf\u00E9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD431C08-DDE9-4F5E-9282-8D8F16AC46DD}|ServicioDeVentasDeCaf\u00E9.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD431C08-DDE9-4F5E-9282-8D8F16AC46DD}|ServicioDeVentasDeCaf\u00E9.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\serviciodeventasdecaf\u00E9\\service\\servicemediodepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD431C08-DDE9-4F5E-9282-8D8F16AC46DD}|ServicioDeVentasDeCaf\u00E9.csproj|solutionrelative:service\\servicemediodepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD431C08-DDE9-4F5E-9282-8D8F16AC46DD}|ServicioDeVentasDeCaf\u00E9.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\serviciodeventasdecaf\u00E9\\service\\servicefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD431C08-DDE9-4F5E-9282-8D8F16AC46DD}|ServicioDeVentasDeCaf\u00E9.csproj|solutionrelative:service\\servicefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,20 +47,12 @@
       "RelativeMoniker": "D:0:0:{DD431C08-DDE9-4F5E-9282-8D8F16AC46DD}|ServicioDeVentasDeCaf\u00E9.csproj|solutionrelative:controllers\\mediodecobrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD431C08-DDE9-4F5E-9282-8D8F16AC46DD}|ServicioDeVentasDeCaf\u00E9.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\serviciodeventasdecaf\u00E9\\service\\servicemediodepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD431C08-DDE9-4F5E-9282-8D8F16AC46DD}|ServicioDeVentasDeCaf\u00E9.csproj|solutionrelative:service\\servicemediodepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD431C08-DDE9-4F5E-9282-8D8F16AC46DD}|ServicioDeVentasDeCaf\u00E9.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\serviciodeventasdecaf\u00E9\\service\\iservice\\iservicemediodepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD431C08-DDE9-4F5E-9282-8D8F16AC46DD}|ServicioDeVentasDeCaf\u00E9.csproj|solutionrelative:service\\iservice\\iservicemediodepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD431C08-DDE9-4F5E-9282-8D8F16AC46DD}|ServicioDeVentasDeCaf\u00E9.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\serviciodeventasdecaf\u00E9\\codigorepetido\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD431C08-DDE9-4F5E-9282-8D8F16AC46DD}|ServicioDeVentasDeCaf\u00E9.csproj|solutionrelative:codigorepetido\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD431C08-DDE9-4F5E-9282-8D8F16AC46DD}|ServicioDeVentasDeCaf\u00E9.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\serviciodeventasdecaf\u00E9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD431C08-DDE9-4F5E-9282-8D8F16AC46DD}|ServicioDeVentasDeCaf\u00E9.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cabed\\AppData\\Roaming\\Microsoft\\UserSecrets\\89d02eb7-7f7a-478f-9e47-959fa6b30568\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
@@ -69,7 +69,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -77,32 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IServiceFactura.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Service\\IService\\IServiceFactura.cs",
-              "RelativeDocumentMoniker": "Service\\IService\\IServiceFactura.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Service\\IService\\IServiceFactura.cs",
-              "RelativeToolTip": "Service\\IService\\IServiceFactura.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T00:51:26.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RepositoryFactura.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Repository\\RepositoryFactura.cs",
-              "RelativeDocumentMoniker": "Repository\\RepositoryFactura.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Repository\\RepositoryFactura.cs",
-              "RelativeToolTip": "Repository\\RepositoryFactura.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T00:47:10.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Factura.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Models\\Factura.cs",
               "RelativeDocumentMoniker": "Models\\Factura.cs",
@@ -114,20 +89,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ServiceFactura.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Service\\ServiceFactura.cs",
               "RelativeDocumentMoniker": "Service\\ServiceFactura.cs",
               "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Service\\ServiceFactura.cs",
               "RelativeToolTip": "Service\\ServiceFactura.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAgwDcAAAARAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwDcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T00:14:43.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T00:14:43.049Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CobranzaCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\DTOs\\CobranzaCreateDto.cs",
               "RelativeDocumentMoniker": "DTOs\\CobranzaCreateDto.cs",
@@ -139,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CobranzaUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\DTOs\\CobranzaUpdateDto.cs",
               "RelativeDocumentMoniker": "DTOs\\CobranzaUpdateDto.cs",
@@ -151,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ServiceCobranza.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Service\\ServiceCobranza.cs",
               "RelativeDocumentMoniker": "Service\\ServiceCobranza.cs",
@@ -163,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AutomapperConfig.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\AutomapperConfig.cs",
               "RelativeDocumentMoniker": "AutomapperConfig.cs",
@@ -175,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "IServiceMedioDePago.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Service\\IService\\IServiceMedioDePago.cs",
               "RelativeDocumentMoniker": "Service\\IService\\IServiceMedioDePago.cs",
@@ -187,7 +161,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
+              "Title": "ServiceMedioDePago.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Service\\ServiceMedioDePago.cs",
+              "RelativeDocumentMoniker": "Service\\ServiceMedioDePago.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Service\\ServiceMedioDePago.cs",
+              "RelativeToolTip": "Service\\ServiceMedioDePago.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T06:59:41.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAwFMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T08:14:00.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RepositoryFactura.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Repository\\RepositoryFactura.cs",
+              "RelativeDocumentMoniker": "Repository\\RepositoryFactura.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Repository\\RepositoryFactura.cs",
+              "RelativeToolTip": "Repository\\RepositoryFactura.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T00:47:10.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IServiceFactura.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Service\\IService\\IServiceFactura.cs",
+              "RelativeDocumentMoniker": "Service\\IService\\IServiceFactura.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Service\\IService\\IServiceFactura.cs",
+              "RelativeToolTip": "Service\\IService\\IServiceFactura.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T00:51:26.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "MedioDeCobroController.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Controllers\\MedioDeCobroController.cs",
               "RelativeDocumentMoniker": "Controllers\\MedioDeCobroController.cs",
@@ -199,19 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ServiceMedioDePago.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Service\\ServiceMedioDePago.cs",
-              "RelativeDocumentMoniker": "Service\\ServiceMedioDePago.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Service\\ServiceMedioDePago.cs",
-              "RelativeToolTip": "Service\\ServiceMedioDePago.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAwwDsAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T06:59:41.34Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Utilidades.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\CodigoRepetido\\Utilidades.cs",
               "RelativeDocumentMoniker": "CodigoRepetido\\Utilidades.cs",
@@ -220,18 +232,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T08:15:08.198Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\ServicioDeVentasDeCaf\u00E9\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAEUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T08:14:00.417Z"
             },
             {
               "$type": "Document",

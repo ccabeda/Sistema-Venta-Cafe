@@ -23,6 +23,16 @@ builder.Services.AddSwaggerGen();
 //Realizo la conexion con Dbapicontext conectando a la base de datos con la cadena de conexion.
 builder.Services.AddDbContext<DbapiContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("cadenaSQL")));
 
+// configurar CORS XXXXX
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp",
+        builder => builder
+            .WithOrigins("http://localhost:3000") // La URL de tu aplicación React
+            .AllowAnyHeader()
+            .AllowAnyMethod());
+});
+
 //agrego automapper
 builder.Services.AddAutoMapper(typeof(AutomapperConfig));
 //APIResponse
@@ -61,9 +71,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseRouting(); // UseRouting antes de UseCors
+
+// la otra parte de CORS XXXXX
+app.UseCors("AllowReactApp");
+
 app.UseAuthorization();
 
 app.MapControllers();
 
 app.Run();
-
