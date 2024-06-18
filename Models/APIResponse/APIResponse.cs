@@ -8,6 +8,7 @@ namespace SistemaDeVentasCafe.Models
         public bool fueExitoso { get; set; } = true; //verifica si fue exitoso o ocurrio un error en el endpoint
         public List<String>? Errores { get; set; } //lista para guardar los mensajes de error
         public object? Resultado { get; set; } //almacena el objeto a devolver en los endpoints
+        public string QRCode { get; set; } //para los qr
     }
 }
 

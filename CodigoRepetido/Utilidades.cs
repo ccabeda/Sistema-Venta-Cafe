@@ -73,17 +73,18 @@ namespace SistemaDeVentasCafe.CodigoRepetido
             return apiresponse;
         }
 
-        public static APIResponse GeneradorQR(APIResponse apiresponse, string descripcion)
+        public static APIResponse GeneradorQR(APIResponse apiresponse, Mediodepago medio)
         {
             QRCodeGenerator qrGenerator = new QRCodeGenerator();
-            QRCodeData qRCodeData = qrGenerator.CreateQrCode(descripcion, QRCodeGenerator.ECCLevel.Q);
+            QRCodeData qRCodeData = qrGenerator.CreateQrCode(medio.Descripcion, QRCodeGenerator.ECCLevel.Q);
             PngByteQRCode qrCode = new PngByteQRCode(qRCodeData);
             byte[] qrCodeImage = qrCode.GetGraphic(20);
             string model = Convert.ToBase64String(qrCodeImage);
             //Retorna el model que tiene la imagen del codigo QR en base 64.
             apiresponse.statusCode = HttpStatusCode.OK;
             apiresponse.fueExitoso = true;
-            apiresponse.Resultado = model;
+            apiresponse.Resultado = medio;
+            apiresponse.QRCode = model;
             return apiresponse;
         }
 
