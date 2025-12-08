@@ -1,0 +1,44 @@
+<Card
+                    sx={{
+                      width: "100%",
+                      height: "100%",
+                      marginBottom: 1,
+                      borderRadius: 2,
+                    }}
+                  >
+                    <CardHeader
+                      avatar={
+                        <Skeleton
+                          animation="wave"
+                          variant="circular"
+                          width={40}
+                          height={40}
+                        />
+                      }
+                      title={
+                        <Skeleton
+                          animation="wave"
+                          height={10}
+                          width="80%"
+                          style={{ marginBottom: 6 }}
+                        />
+                      }
+                      subheader={
+                        <Skeleton animation="wave" height={10} width="40%" />
+                      }
+                      sx={{
+                        backgroundColor:
+                          theme.palette.mode === "light"
+                            ? theme.palette.secondary.dark
+                            : null,
+                      }}
+                    />
+                    <Skeleton
+                      sx={{ height: 190 }}
+                      animation="wave"
+                      variant="rectangular"
+                    />
+                    <CardActions sx={{ marginX: 3 }}>
+                      <Skeleton animation="wave" height={30} width="100%" />
+                    </CardActions>
+                  </Card>
