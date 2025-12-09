@@ -7,7 +7,7 @@ Tecnologías:
 -- Frontend --
 - React
 - Material UI
-- 
+
 -- Backend-- 
 - C#
 - SQL Server
